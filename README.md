@@ -169,4 +169,18 @@ This notebook runs the main **feature extraction + modeling pipeline** on pre-se
 - Deployment package:
   - `results/best_model_package/` (model + scaler + threshold + feature list)
 
+---
+
+## How to Run (Google Colab + GPU)
+
+### Recommended environment
+- **Google Colab** with **GPU** enabled (required for WavLM extraction; strongly recommended for speed).
+- Python version: Colab default (check via `python --version`).
+
+### 1) Enable GPU in Colab
+In Colab:
+1. `Runtime` → `Change runtime type`
+2. Set `Hardware accelerator` to **GPU**
+3. Save
+
 
